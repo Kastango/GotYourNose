@@ -29,6 +29,8 @@ header#main-header {
   2 param: qnts px para baixo ......
   3 param: BLUR (qnts pixels ela se dissipa na tela)
   4 param: cor em rgba*/
+  position: relative;
+  z-index: 1;
 }
 
 header#main-header .content {
@@ -104,4 +106,16 @@ header#main-header div.side button {
   color: #FFF;
   border: 0;
   border-radius: 16px;
+}
+
+div.banner {
+  height: 380px;
+  width: 100%;
+  background: #3bb9e3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFF;
 }
