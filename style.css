@@ -19,6 +19,8 @@ input, button {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
+  display: flex;
+  flex-grow: 1;
 }
 
 header#main-header {
@@ -95,7 +97,7 @@ header#main-header div.side img {
 header#main-header div.side button {
   height: 34px;
   background: #3bb9e3;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,6 +109,7 @@ header#main-header div.side button {
   border: 0;
   border-radius: 16px;
 }
+
 
 div.banner {
   height: 380px;
@@ -200,6 +203,11 @@ div.bar .content .actions button {
   border: 1px solid #3bb9e3;
   border-radius: 16px;
   margin-right: 10px;
+}
+
+div.bar .content .actions button:hover {
+  background: #3bb9e3;
+  color: #fff;
 }
 
 div.bar .content .actions img{
