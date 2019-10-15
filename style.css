@@ -110,6 +110,11 @@ header#main-header div.side button {
   border-radius: 16px;
 }
 
+header#main-header div.side button:hover {
+  background: #fff;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+}
 
 div.banner {
   height: 380px;
